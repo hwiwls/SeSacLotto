@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2EA079BD2B568705004C7C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA079BC2B568705004C7C55 /* AppDelegate.swift */; };
 		2EA079BF2B568705004C7C55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA079BE2B568705004C7C55 /* SceneDelegate.swift */; };
-		2EA079C12B568705004C7C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA079C02B568705004C7C55 /* ViewController.swift */; };
+		2EA079C12B568705004C7C55 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA079C02B568705004C7C55 /* LottoViewController.swift */; };
 		2EA079C42B568705004C7C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA079C22B568705004C7C55 /* Main.storyboard */; };
 		2EA079C62B568707004C7C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA079C52B568707004C7C55 /* Assets.xcassets */; };
 		2EA079C92B568707004C7C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA079C72B568707004C7C55 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		2EA079B92B568705004C7C55 /* SeSacLotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSacLotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA079BC2B568705004C7C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EA079BE2B568705004C7C55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EA079C02B568705004C7C55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EA079C02B568705004C7C55 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
 		2EA079C32B568705004C7C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EA079C52B568707004C7C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EA079C82B568707004C7C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				2EA079BC2B568705004C7C55 /* AppDelegate.swift */,
 				2EA079BE2B568705004C7C55 /* SceneDelegate.swift */,
-				2EA079C02B568705004C7C55 /* ViewController.swift */,
+				2EA079C02B568705004C7C55 /* LottoViewController.swift */,
 				2EA079C22B568705004C7C55 /* Main.storyboard */,
 				2EA079C52B568707004C7C55 /* Assets.xcassets */,
 				2EA079C72B568707004C7C55 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EA079C12B568705004C7C55 /* ViewController.swift in Sources */,
+				2EA079C12B568705004C7C55 /* LottoViewController.swift in Sources */,
 				2EA079BD2B568705004C7C55 /* AppDelegate.swift in Sources */,
 				2EA079BF2B568705004C7C55 /* SceneDelegate.swift in Sources */,
 			);
