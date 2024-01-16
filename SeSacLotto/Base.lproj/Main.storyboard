@@ -24,22 +24,35 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTI-qn-TID">
+                                <rect key="frame" x="20" y="415.66666666666669" width="353" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="BBn-OY-wpI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RTI-qn-TID" secondAttribute="trailing" constant="20" id="I7p-D8-nG7"/>
                             <constraint firstItem="4zz-aS-eTP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SSI-c9-5EM"/>
+                            <constraint firstItem="RTI-qn-TID" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jnA-81-ZgW"/>
+                            <constraint firstItem="RTI-qn-TID" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="t1c-fA-TWj"/>
                             <constraint firstItem="4zz-aS-eTP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="uQQ-Rd-fJG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4zz-aS-eTP" secondAttribute="trailing" constant="20" id="yk2-ts-Ode"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="numberTextField" destination="4zz-aS-eTP" id="1t8-Fi-Xq5"/>
+                        <outlet property="resultLabel" destination="RTI-qn-TID" id="nwd-L1-5R3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="111" y="4"/>
+            <point key="canvasLocation" x="110.68702290076335" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
